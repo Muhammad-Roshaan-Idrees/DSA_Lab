@@ -1,0 +1,32 @@
+Analysis:
+
+ Sorted Array:
+o Insertion Sort: Performs minimal comparisons and almost no swaps.
+o Bubble Sort: Does unnecessary comparisons, with no swaps if optimized.
+
+ Nearly Sorted Array:
+o Insertion Sort: Efficient with few comparisons and swaps.
+o Bubble Sort: Takes more comparisons and some swaps, generally less efficient
+than Insertion Sort here.
+
+ Random Array:
+o Insertion Sort: Performs adequate comparisons and swaps.
+o Bubble Sort: Performs maximum comparisons and swaps as each element is repositioned.
+
+ Reverse Sorted Array:
+o Insertion Sort: Performs maximum comparisons and swaps as each element is
+repositioned.
+o Bubble Sort: Very slow with maximum comparisons and swaps for each element
+until sorted.
+
+Summary:
+
+ Insertion Sort is more efficient for sorted and nearly sorted arrays due to fewer swaps
+and comparisons.
+ Bubble Sort is less efficient, especially for reverse sorted arrays, because it requires
+extensive comparisons and swaps.
+
+Conclusion:
+
+Insertion Sort generally performs better except in cases where the array is already sorted,
+where Bubble Sort can be optimized for minimal swaps.
